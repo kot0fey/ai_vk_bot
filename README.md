@@ -1,8 +1,11 @@
-Конфигурационынй файл: src/main/resources/application.properties
+**Конфигурационынй файл:** src/main/resources/application.properties
+
     project.keys.callback.confirmation - Ключ для подтверждения адреса для Callback API
     project.keys.callback.secret - Секртеный ключ Callback API
     project.keys.access_key - Ключ доступа для управления сообществом
-Процесс запуска:
+
+**Процесс запуска:**
+    
     1) Создаем ключ доступа в сообществе, предоставляя доступ к сообщениям сообщества
     2) Копируем ключ в project.keys.access_key
     3) Создаем сервер Callback API
